@@ -2,45 +2,45 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-image: url("https://i.pinimg.com/736x/59/f6/5e/59f65e42fe15e3f54f51db0e56b01527.jpg");
-    color: #01000e;
+    background-image: url("https://server.wallpaperalchemy.com/storage/wallpapers/431/berserk-guts-mobile-wallpaper-4k-card.jpg");
+    color: #0a0901;
     line-height: 1.67;
 }
 
 @keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateY(-30px);
+        transform: translateX(-80px);
     }
 
     to {
         opacity: 1;
-        transform: translateY(0);
+        transform: translateX(0);
     }
 }
 
 li {
     list-style: none;
-    background-color: white;
+    background-color: rgb(247, 248, 247);
     padding: 15px;
     margin: 15px auto;
     width: 250px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px #cccccc;
+    box-shadow: 0 4px 10px #cfd1ef;
     transition: transform 0.3s ease,
                 background-color 0.3s ease;
 }
 li:hover {
-    transform: translateY(-8px);
+    transform: translateY(-10px);
     scale:1.05;
-    background-color: #f9fcfd;
+    background-color: rgb(240, 245, 97);
     cursor: pointer;
-    transition: transform 0.3s ease;
+    transition: transform 10s ease;
 }
 
 h2:hover {
     transform: scale(1.0);
-    color: #050505;
+    color: #c88888;
 }
 
 h1 {
@@ -51,7 +51,7 @@ h1 {
     width: 50%;
     margin: 30px auto;
     border-radius: 15px;
-    box-shadow: 0 4px 10px #cccccc;
+    box-shadow: 0px 8px #0c0c0c;
 }
 
 p {
@@ -66,7 +66,7 @@ p {
 
 h2 {
     text-align: center;
-    background-color: #108a03;
+    background-color: #fd43bf;
     padding: 15px;
     width: 30%;
     margin: 20px auto;
@@ -75,20 +75,20 @@ h2 {
 }
 h3 {
     text-align: center;
-    background-color: #029930;
+    background-color: #868484;
     padding: 15px;
     width: 50%;
     margin: 20px auto;
     border-radius: 15px;
-    box-shadow: 0 4px 10px #cccccc;
+    box-shadow: 0 4px 10px #131010;
 }
 h4 {
     text-align:center;
-    background-color:#058bde;
+    background-color:#98d7fe;
     padding: 10px;
     width:25%;
     margin:20px auto;
-    box-shadow: 0 4px 10px #cccccc;
+    box-shadow: 0 4px 10px #110505;
     border-radius: 15px;
 }
     .projects {
@@ -130,7 +130,7 @@ h4 {
 {
 content: "";
 position: absolute;
-insert: 0;
+inset: 0;
 background: color(#007bff);
 z-index: -1;
 }
@@ -148,4 +148,17 @@ z-index: -1;
     box-shadow: 0 4px 10px #cccccc;
     align-self: center;
     margin-left: 700px;
+}
+.farhan {
+    text-align: center;
+    background-image: url(https://server.wallpaperalchemy.com/storage/wallpapers/405/berserk-guts-snow-mountain-wallpaper-4k-card.jpg);
+    padding: 20px;
+    text-align: center;
+    margin: 8px auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px #0c0000;
+    font-family: "Times New Roman", Georgia, serif;
+    width: 400px;
+    display: grid;
+    stop-color: #ffffff;
 }
